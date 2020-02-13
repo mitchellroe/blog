@@ -1,1 +1,3 @@
-# Welcome to my blog
+# Discoveries and Musings
+
+[My Awesome Page](my-awesome-page)
