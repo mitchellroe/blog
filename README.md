@@ -1,1 +1,1 @@
-# Discoveries and Musings
+# Mitchell Learns Things
