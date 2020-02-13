@@ -1,3 +1,3 @@
 # Discoveries and Musings
 
-[My Awesome Page](my-awesome-page.md)
+[My Awesome Page](my-awesome-page)
