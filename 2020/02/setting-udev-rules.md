@@ -25,7 +25,8 @@ than I though it would be. Create `/etc/udev/rules.d/10-trackpoint.rules` with
 the following:
 
 ```
-ACTION=="add", SUBSYSTEM=="input", ATTR{name}=="TPPS/2 IBM TrackPoint",
+ACTION=="add", SUBSYSTEM=="input",
+ATTR{name}=="TPPS/2 IBM TrackPoint",
 ATTR{device/sensitivity}="200"
 ```
 
