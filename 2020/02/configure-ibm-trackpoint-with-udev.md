@@ -36,4 +36,4 @@ comma-separated statement like `ATTR{device/speed}`.
 
 Enjoy a permanent, stable configuration of your TrackPoint.
 
-[back](../../README.md)
+[home](../../README.md)
