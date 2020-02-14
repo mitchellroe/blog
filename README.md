@@ -7,5 +7,5 @@ Besides, if I've run into it, chances are someone else has too.
 
 Enjoy.
 
-### [Setting udev rules for IBM TrackPoint sensitivity](2020/02/setting-udev-rules.md)
+### [Setting udev rules for IBM TrackPoint sensitivity](2020/02/configure-ibm-trackpoint-with-udev.md)
 
