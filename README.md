@@ -8,3 +8,6 @@ Enjoy.
 ### [Add SELinux fcontext](selinux-fcontext.md)
 
 ### [Set custom locales in GNOME3](custom-locale-gnome3.md)
+
+### [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
+
