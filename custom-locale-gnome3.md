@@ -118,8 +118,8 @@ sections. From **locale(5)** man pages:
 
 > The locale definition has one part for each locale category. Each part can be
 > copied from another existing locale or can be defined from scratch. If the
-> category should be copied, the only valid keyword in the definition is copy
-> followed by the name of the locale which should be copied.
+> category should be copied, the only valid keyword in the definition is
+> **copy** followed by the name of the locale which should be copied.
 
 The notion of **copy** is very useful. It saves time and the resulting file is
 clear and concise. For example, instead of copying entire sections around, you
