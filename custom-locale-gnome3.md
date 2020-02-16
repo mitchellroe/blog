@@ -30,9 +30,9 @@ From [Fedora 21 System Administrator's
 Guide](http://docs.fedoraproject.org/en-US/Fedora/21/html/System_Administrators_Guide/ch-System_Locale_and_Keyboard_Configuration.html):
 
 > System-wide locale settings are stored in the `/etc/locale.conf` file, which
-> is read at early boot by the systemd daemon. The locale settings configured in
-> `/etc/locale.conf` are inherited by every service or user, unless individual
-> programs or individual users override them.
+> is read at early boot by the **systemd** daemon. The locale settings
+> configured in `/etc/locale.conf` are inherited by every service or user,
+> unless individual programs or individual users override them.
 
 To see the current locale status we can run:
 
