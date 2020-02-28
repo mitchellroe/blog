@@ -15,7 +15,7 @@ I heard this on an NPR Tiny Desk Concert podcast.
 > And nothing, not our star signs can show us what our future holds<br>
 > So wait<br>
 > Yeah, so wait
-
+>
 > Been waking with bad dreams<br>
 > Been walking with shaking knees, and<br>
 > I feel colorblind when I ain't with you<br>
