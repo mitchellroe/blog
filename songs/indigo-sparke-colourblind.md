@@ -7,7 +7,7 @@ I heard this on an NPR Tiny Desk Concert podcast.
 > All the king's horses and all the king's men<br>
 > Well couldn't, no, they couldn't, put him back together again<br>
 > So wait<br>
-> Yeah so wait
+> Yeah, so wait
 >
 > There's a knowing in your eyes<br>
 > There's a truth behind my lies, and<br>
