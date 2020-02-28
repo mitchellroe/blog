@@ -5,7 +5,7 @@ I heard this on an NPR Tiny Desk Concert podcast.
 > There's a distance in our words<br>
 > There's a distance in it hurts, and<br>
 > All the king's horses and all the king's men<br>
-> Well couldn't, no, they couldn't, put him back together again<br>
+> Well couldn't, no they couldn't put him back together again<br>
 > So wait<br>
 > Yeah, so wait
 >
