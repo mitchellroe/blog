@@ -10,3 +10,5 @@
 
 ## [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
 
+## [Create an "orphaned" git repository](git-checkout-orphan.md)
+
