@@ -4,4 +4,4 @@
 gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length X
 ```
 
-X == number of seconds. The maximum is `4294967295`.
+The default is `30` (i.e. 30 seconds). The maximum is `4294967295`.
