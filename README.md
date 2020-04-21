@@ -13,3 +13,5 @@
 ## [Create an "orphaned" git repository](git-checkout-orphan.md)
 
 ## [Extend GNOME Shell Recorder's maximum recording length](gnome-shell-recorder.md)
+
+## [Git and GNOME Keyring](git-and-gnome-keyring.md)
