@@ -30,3 +30,19 @@ Fn + R for three seconds
 ## Reset all layers to default
 
 L\_Alt + R\_Alt for 3 seconds
+
+## Examples
+
+### Change the Fn key to Caps Lock
+
+- Fn + L\_Alt for three seconds
+- Caps\_Lock
+
+### Make `Fn + y` go to Youtube.com
+
+- Fn + R\_Ctrl
+- Fn + y
+- Ctrl + t
+- `youtube.com`
+- Enter
+- Pn
