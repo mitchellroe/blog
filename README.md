@@ -15,3 +15,5 @@
 ## [Extend GNOME Shell Recorder's maximum recording length](gnome-shell-recorder.md)
 
 ## [Git and GNOME Keyring](git-and-gnome-keyring.md)
+
+## [Rasterize a PDF](rasterize-pdf.md)
