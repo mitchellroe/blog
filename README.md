@@ -21,3 +21,5 @@
 ## [Programming Vortex Race 3 Keyboard](race3-keyboard-programming.md)
 
 ## [Python environment](python-environment.md)
+
+## [Looping in PowerShell](looping-in-powershell.md)
