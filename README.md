@@ -1,25 +1,35 @@
 # mitchellroe.dev
 
-## [Setting udev rules for IBM TrackPoint sensitivity](trackpoint-udev.md)
+## Input Devices
 
-## [Configuration for Logitech "Trackman" trackball](logitech-trackball.md)
+- [Setting udev rules for IBM TrackPoint sensitivity](trackpoint-udev.md)
+- [Configuration for Logitech "Trackman" trackball](logitech-trackball.md)
+- [Programming Vortex Race 3 Keyboard](race3-keyboard-programming.md)
 
-## [Add SELinux fcontext](selinux-fcontext.md)
+## Security
 
-## [Set custom locales in GNOME3](custom-locale-gnome3.md)
+- [Add SELinux fcontext](selinux-fcontext.md)
 
-## [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
+## Desktop Environments
 
-## [Create an "orphaned" git repository](git-checkout-orphan.md)
+- [Extend GNOME Shell Recorder's maximum recording length](gnome-shell-recorder.md)
+- [Set custom locales in GNOME3](custom-locale-gnome3.md)
+- [Git and GNOME Keyring](git-and-gnome-keyring.md)
 
-## [Extend GNOME Shell Recorder's maximum recording length](gnome-shell-recorder.md)
+## Editors
 
-## [Git and GNOME Keyring](git-and-gnome-keyring.md)
+- [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
 
-## [Rasterize a PDF](rasterize-pdf.md)
+## Version Control
 
-## [Programming Vortex Race 3 Keyboard](race3-keyboard-programming.md)
+- [Create an "orphaned" git repository](git-checkout-orphan.md)
+- [Git and GNOME Keyring](git-and-gnome-keyring.md)
 
-## [Python environment](python-environment.md)
+## Documents
 
-## [Looping in PowerShell](looping-in-powershell.md)
+- [Rasterize a PDF](rasterize-pdf.md)
+
+## Programming
+
+- [Python environment](python-environment.md)
+- [Looping in PowerShell](looping-in-powershell.md)
