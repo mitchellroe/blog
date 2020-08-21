@@ -8,7 +8,7 @@
 
 ## Security
 
-- [Add SELinux fcontext](selinux-fcontext.md)
+- [SELinux Troubleshooting](selinux-troubleshooting.md)
 
 ## Desktop Environments
 
