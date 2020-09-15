@@ -17,6 +17,10 @@
 - [Git and GNOME Keyring](git-and-gnome-keyring.md)
 - [Show Alt+Tab popup as fast as possible in KDE](alt-tab-popup-delay-in-kde.md)
 
+## Power Managment
+
+- [Enable hibernate in Ubuntu](enable-hibernate-in-ubuntu.md)
+
 ## Editors
 
 - [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
