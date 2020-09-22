@@ -34,6 +34,7 @@
 ## Documents
 
 - [Rasterize a PDF](rasterize-pdf.md)
+- [Enable PDF creation with `convert`](enable-pdf-creation-with-convert.md)
 
 ## Programming
 
