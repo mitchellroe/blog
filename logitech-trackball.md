@@ -14,7 +14,8 @@ Section "InputClass"
 EndSection
 ```
 
-Thanks to <https://wiki.archlinux.org/index.php/Loitech_Marble_Mouse> for the
+
+Thanks to <https://wiki.archlinux.org/index.php/Logitech_Marble_Mouse> for the
 information.
 
 [home](README.md)
