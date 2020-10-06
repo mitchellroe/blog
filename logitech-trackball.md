@@ -1,6 +1,20 @@
 # Configuration for Logitech "Trackman" trackball
 
-In `/etc/share/X11/xorg.conf.d/10-trackball.conf` for left-handed placement:
+In `/etc/share/X11/xorg.conf.d/10-trackball.conf`, add the following for
+right-handed placement:
+
+```
+Section "InputClass"
+	Identifier   "Marble Mouse"
+	MatchProduct "Logitech USB Trackball"
+	Driver       "libinput"
+	Option       "ScrollMethod"    "button"
+	Option       "ScrollButton"    "8"
+	Option       "MiddleEmulation" "true"
+EndSection
+```
+
+For left-handed placement:
 
 ```
 Section "InputClass"
@@ -13,7 +27,6 @@ Section "InputClass"
     Option          "ButtonMapping" "3 2 1 4 5 6 7 8 9"
 EndSection
 ```
-
 
 Thanks to <https://wiki.archlinux.org/index.php/Logitech_Marble_Mouse> for the
 information.
