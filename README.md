@@ -9,6 +9,7 @@
 ## Security
 
 - [SELinux Troubleshooting](selinux-troubleshooting.md)
+- [Docker cannot use DNS on RHEL 8 host](docker-rhel-8-dns-troubles.md)
 
 ## Desktop Environments
 
