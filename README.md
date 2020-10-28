@@ -5,6 +5,7 @@
 - [Setting udev rules for IBM TrackPoint sensitivity](trackpoint-udev.md)
 - [Configuration for Logitech "Trackman" trackball](logitech-trackball.md)
 - [Programming Vortex Race 3 Keyboard](race3-keyboard-programming.md)
+- [Keychron K8 Function Keys](keychron-k8-function-keys.md)
 
 ## Security
 
