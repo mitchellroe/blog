@@ -1,9 +1,9 @@
 # Keychron K8 Function Keys
 
 The function keys were not working properly on my Keychron K8 when in wired
-mode. They would only function as their desktop-environment equivalent (i.e. F1
-would _only_ decrease brightness, F2 would _only_ increase brightness, etc.),
-even when combining the keystroke with the `Fn` key.
+mode. They would only function as their desktop-environment equivalent, even
+when combining with the `Fn` key (e.g. F1 would _only_ decrease brightness, F2
+would _only_ increase brightness, etc.).
 
 Setting the hid_apple module option of `fnmode` to 0 worked.
 
