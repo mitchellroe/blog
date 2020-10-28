@@ -11,3 +11,9 @@ Setting the hid_apple module option of `fnmode` to 0 worked.
 ```
 options hid_apple fnmode=0
 ```
+
+You can also do this ephemerally by overwriting the
+`/sys/module/hid_apple/parameters/fnmode` file:
+```
+echo 0 > /sys/module/hid_apple/parameters/fnmode
+```
