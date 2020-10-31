@@ -23,6 +23,7 @@
 ## Power Managment
 
 - [Enable hibernate in Ubuntu](enable-hibernate-in-ubuntu.md)
+- [Automatically hibernate after extended sleep](auto-hibernate.md)
 
 ## Editors
 
