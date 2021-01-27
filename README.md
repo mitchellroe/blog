@@ -16,6 +16,7 @@
 
 - [Extend GNOME Shell Recorder's maximum recording length](gnome-shell-recorder.md)
 - [Set custom locales in GNOME3](custom-locale-gnome3.md)
+- [Regenerate locales in Debian](locales-in-debian.md)
 - [Git and GNOME Keyring](git-and-gnome-keyring.md)
 - [Show Alt+Tab popup as fast as possible in KDE](alt-tab-popup-delay-in-kde.md)
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
