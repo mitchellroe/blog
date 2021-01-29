@@ -20,6 +20,7 @@
 - [Git and GNOME Keyring](git-and-gnome-keyring.md)
 - [Show Alt+Tab popup as fast as possible in KDE](alt-tab-popup-delay-in-kde.md)
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
+- [My favorite GNOME Shell extensions](gnome-shell-extensions.md)
 
 ## Power Managment
 
