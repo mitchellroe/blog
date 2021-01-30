@@ -30,6 +30,14 @@ ATTR{name}=="TPPS/2 IBM TrackPoint",
 ATTR{device/sensitivity}="200"
 ```
 
+After creating/editing this file, you can make the changes to into effect by
+telling udev about them:
+
+```
+udevadm control --reload-rules
+udevadm trigger
+```
+
 This method allows you to configure any of the settings found in
 `/sys/bus/serio/devices/serio2/` (or equivalent) by simply adding another
 comma-separated statement like `ATTR{device/speed}`.
