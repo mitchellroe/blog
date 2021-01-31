@@ -31,8 +31,8 @@ slower to exit in that case. This mode is called suspend-to-both by the kernel.
 <dd>
 A low power state where the system is initially suspended (the state is stored
 in RAM).  If not interrupted within the delay specified by
-**HibernateDelaySec=**, the system will be woken using an RTC alarm and
-hibernated (the state is then stored on disk).
+<strong>HibernateDelaySec=</strong>, the system will be woken using an RTC
+alarm and hibernated (the state is then stored on disk).
 </dd>
 
 </dl>
