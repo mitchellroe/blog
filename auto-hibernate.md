@@ -35,6 +35,10 @@ HandleLidSwitch=suspend-then-hibernate
 HandleLidSwitchExternalPower=suspend-then-hibernate
 ```
 
+Finally, for the changes to take effect, either restart your computer or restart the logind service.
+
+**NOTE**: Restarting the logind service will log you out of any graphical sessions you may be logged in to.
+
 ```
 # systemctl restart systemd-logind.service
 ```
