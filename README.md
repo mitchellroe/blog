@@ -22,6 +22,10 @@
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
 - [My favorite GNOME Shell extensions](gnome-shell-extensions.md)
 
+## Web Browsers
+
+- [Disable Firefox's Microphone/Webcam Indicator](disable-firefox-microphone-icon.md)
+
 ## Power Managment
 
 - [Enable hibernate in Ubuntu](enable-hibernate-in-ubuntu.md)
