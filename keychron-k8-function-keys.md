@@ -17,3 +17,8 @@ You can also do this ephemerally by overwriting the
 ```
 echo 0 > /sys/module/hid_apple/parameters/fnmode
 ```
+
+## Update (as of 9 Feb 2021)
+
+I updated the firmware on my device, and this seems to have resolved the issue
+I was experiencing.
