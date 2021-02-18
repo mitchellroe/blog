@@ -7,4 +7,7 @@
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
 - [Never Close Calendar Event](https://extensions.gnome.org/extension/1439/never-close-calendar-event/) by [c0ldcat](https://extensions.gnome.org/accounts/profile/c0ldcat)
 - [Pomodoro](https://gnomepomodoro.org/) by [kamilprusko](https://extensions.gnome.org/accounts/profile/kamilprusko)
+  - This hasn't been working well for me as of Fedora 33.
+  - The screen overlay (the killer feature of this app) is tiny white text on a completely transparent background.
+  - I've been using [Solanum](https://gitlab.gnome.org/World/Solanum) instead.
 - [Remove Alt+Tab Delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/) by [tetrafox](https://extensions.gnome.org/accounts/profile/tetrafox)
