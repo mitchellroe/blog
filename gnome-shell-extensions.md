@@ -7,3 +7,4 @@
 - [Never Close Calendar Event](https://extensions.gnome.org/extension/1439/never-close-calendar-event/) by [c0ldcat](https://extensions.gnome.org/accounts/profile/c0ldcat)
 - [Pomodoro](https://gnomepomodoro.org/) by [kamilprusko](https://extensions.gnome.org/accounts/profile/kamilprusko)
 - [Remove Alt+Tab Delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/) by [tetrafox](https://extensions.gnome.org/accounts/profile/tetrafox)
+- [App-Switcher Current Workspace First](https://extensions.gnome.org/extension/1329/app-switcher-current-workspace-first/) by [fawtytoo](https://extensions.gnome.org/accounts/profile/fawtytoo)
