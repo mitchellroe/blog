@@ -9,5 +9,5 @@
 - [Pomodoro](https://gnomepomodoro.org/) by [kamilprusko](https://extensions.gnome.org/accounts/profile/kamilprusko)
   - This hasn't been working well for me as of Fedora 33.
   - The screen overlay (the killer feature of this app) is tiny white text on a completely transparent background.
-  - I've been using [Solanum](https://gitlab.gnome.org/World/Solanum) instead.
+  - I've been using [Time ++](https://extensions.gnome.org/extension/1238/time/) by [zagortenay33](https://extensions.gnome.org/accounts/profile/zagortenay33) instead.
 - [Remove Alt+Tab Delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/) by [tetrafox](https://extensions.gnome.org/accounts/profile/tetrafox)
