@@ -11,3 +11,5 @@
   - The screen overlay (the killer feature of this app) is tiny white text on a completely transparent background.
   - I've been using [Time ++](https://extensions.gnome.org/extension/1238/time/) by [zagortenay33](https://extensions.gnome.org/accounts/profile/zagortenay33) instead.
 - [Remove Alt+Tab Delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/) by [tetrafox](https://extensions.gnome.org/accounts/profile/tetrafox)
+- [Switcher](https://extensions.gnome.org/extension/973/switcher/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
+- [Pop Shell](https://github.com/pop-os/shell) by [Pop!\_OS](https://github.com/pop-os)
