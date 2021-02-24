@@ -87,3 +87,15 @@ sessions you may be logged in to.
 ```
 # systemctl restart systemd-logind.service
 ```
+
+## 24. Feb 2021 Update
+
+I'm now using Fedora 32, and have found that resuming from hibernate is not
+working properly.  There is [a
+bug](https://bugzilla.redhat.com/show_bug.cgi?id=1795422) open for this issue,
+which contains a workaround.
+
+```
+sudo echo 'add_dracutmodules+=" resume " > /etc/dracut.conf.d/99-enable-resume.conf'
+sudo dracut -fv
+```
