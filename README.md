@@ -7,6 +7,10 @@
 - [Programming Vortex Race 3 Keyboard](race3-keyboard-programming.md)
 - [Keychron K8 Function Keys](keychron-k8-function-keys.md)
 
+## Output Devices
+
+- [Pulse Audio not using default audio sink](pulseaudio-not-using-default-sink.md)
+
 ## Security
 
 - [SELinux Troubleshooting](selinux-troubleshooting.md)
