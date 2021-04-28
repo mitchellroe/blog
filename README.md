@@ -50,6 +50,7 @@
 - [Rasterize a PDF](rasterize-pdf.md)
 - [Enable PDF creation with `convert`](enable-pdf-creation-with-convert.md)
 - [Password-protect a PDF](password-protect-pdf.md)
+- [Convert a PDF to grayscale](convert-a-pdf-to-grayscale.md)
 
 ## Programming
 
