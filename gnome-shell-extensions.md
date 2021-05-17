@@ -1,5 +1,6 @@
 # My Favorite GNOME Shell Extensions
 
+- [Audio Output Switcher](https://extensions.gnome.org/extension/751/audio-output-switcher/) by [adaxi](https://extensions.gnome.org/accounts/profile/adaxi)
 - [App-Switcher Current Workspace First](https://extensions.gnome.org/extension/1329/app-switcher-current-workspace-first/) by [fawtytoo](https://extensions.gnome.org/accounts/profile/fawtytoo)
 - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/) by [3v1n0](https://extensions.gnome.org/accounts/profile/3v1n0)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) by [eon](https://extensions.gnome.org/accounts/profile/eon)
