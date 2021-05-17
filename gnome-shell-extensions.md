@@ -5,11 +5,7 @@
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) by [eon](https://extensions.gnome.org/accounts/profile/eon)
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) by [michele\_g](https://extensions.gnome.org/accounts/profile/michele_g)
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
-- [Never Close Calendar Event](https://extensions.gnome.org/extension/1439/never-close-calendar-event/) by [c0ldcat](https://extensions.gnome.org/accounts/profile/c0ldcat)
-- [Pomodoro](https://gnomepomodoro.org/) by [kamilprusko](https://extensions.gnome.org/accounts/profile/kamilprusko)
-  - This hasn't been working well for me as of Fedora 33.
-  - The screen overlay (the killer feature of this app) is tiny white text on a completely transparent background.
-  - I've been using [Time ++](https://extensions.gnome.org/extension/1238/time/) by [zagortenay33](https://extensions.gnome.org/accounts/profile/zagortenay33) instead.
+- [Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) by [PapyElGringo](https://extensions.gnome.org/accounts/profile/PapyElGringo)
 - [Remove Alt+Tab Delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/) by [tetrafox](https://extensions.gnome.org/accounts/profile/tetrafox)
 - [Switcher](https://extensions.gnome.org/extension/973/switcher/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
-- [Pop Shell](https://github.com/pop-os/shell) by [Pop!\_OS](https://github.com/pop-os)
+- [Time ++](https://extensions.gnome.org/extension/1238/time/) by [zagortenay33](https://extensions.gnome.org/accounts/profile/zagortenay33)
