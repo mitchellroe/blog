@@ -5,6 +5,6 @@ In Fedora 32 and 33, resuming from hibernate is not working properly. There is
 issue, which contains a workaround.
 
 ```
-sudo echo 'add_dracutmodules+=" resume " > /etc/dracut.conf.d/99-enable-resume.conf'
+echo 'add_dracutmodules+=" resume "' | sudo tee /etc/dracut.conf.d/99-enable-resume.conf
 sudo dracut -fv
 ```
