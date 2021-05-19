@@ -34,6 +34,7 @@
 ## Power Managment
 
 - [Enable hibernate in Ubuntu](enable-hibernate-in-ubuntu.md)
+- [Enable hibernate in Fedora](enable-hibernate-in-fedora.md)
 - [Automatically hibernate after extended sleep](auto-hibernate.md)
 
 ## Editors
