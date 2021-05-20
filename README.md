@@ -15,6 +15,7 @@
 
 - [SELinux Troubleshooting](selinux-troubleshooting.md)
 - [Docker cannot use DNS on RHEL 8 host](docker-rhel-8-dns-troubles.md)
+- [Connect to WPA2 Enterprise in Fedora 33](connect-to-wpa2-enterprise-in-fedora-33.md)
 
 ## Desktop Environments
 
