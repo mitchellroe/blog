@@ -27,6 +27,7 @@
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
 - [My favorite GNOME Shell extensions](gnome-shell-extensions.md)
 - [Reset GNOME Shell](reset-gnome.md)
+- [Screen sharing in Wayland](screen-sharing-in-wayland.md)
 
 ## Web Browsers
 
