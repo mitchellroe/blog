@@ -7,7 +7,7 @@
 - [Espresso](https://extensions.gnome.org/extension/4135/espresso/) by [tharbold](https://extensions.gnome.org/accounts/profile/tharbold)
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
 - [Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) by [PapyElGringo](https://extensions.gnome.org/accounts/profile/PapyElGringo)
+- [Pomodoro](https://extensions.gnome.org/extension/53/pomodoro/) by [kamilprusko](https://extensions.gnome.org/accounts/profile/kamilprusko)
 - [Remove Alt+Tab Delay](https://extensions.gnome.org/extension/1403/remove-alttab-delay/) by [tetrafox](https://extensions.gnome.org/accounts/profile/tetrafox)
 - [Screenshot Tool](https://extensions.gnome.org/extension/1112/screenshot-tool/) by [oal](https://extensions.gnome.org/accounts/profile/oal)
 - [Switcher](https://extensions.gnome.org/extension/973/switcher/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
-- [Time ++](https://extensions.gnome.org/extension/1238/time/) by [zagortenay33](https://extensions.gnome.org/accounts/profile/zagortenay33)
