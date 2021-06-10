@@ -2,7 +2,7 @@
 
 - [App-Switcher Current Workspace First](https://extensions.gnome.org/extension/1329/app-switcher-current-workspace-first/) by [fawtytoo](https://extensions.gnome.org/accounts/profile/fawtytoo)
 - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/) by [3v1n0](https://extensions.gnome.org/accounts/profile/3v1n0)
-- [Audio Output Switcher](https://extensions.gnome.org/extension/751/audio-output-switcher/) by [adaxi](https://extensions.gnome.org/accounts/profile/adaxi)
+- [Audio Switcher](https://extensions.gnome.org/extension/1092/audio-switcher/) by [Gwynbleid94](https://extensions.gnome.org/accounts/profile/Gwynbleid94)
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) by [michele\_g](https://extensions.gnome.org/accounts/profile/michele_g)
 - [Espresso](https://extensions.gnome.org/extension/4135/espresso/) by [tharbold](https://extensions.gnome.org/accounts/profile/tharbold)
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) by [dlandau](https://extensions.gnome.org/accounts/profile/dlandau)
