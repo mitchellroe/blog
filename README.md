@@ -17,17 +17,25 @@
 - [Docker cannot use DNS on RHEL 8 host](docker-rhel-8-dns-troubles.md)
 - [Connect to WPA2 Enterprise in Fedora 33](connect-to-wpa2-enterprise-in-fedora-33.md)
 
-## Desktop Environments
+## Desktop
+
+### Wayland
+
+- [Screen sharing in Wayland](screen-sharing-in-wayland.md)
+
+### GNOME
 
 - [Extend GNOME Shell Recorder's maximum recording length](gnome-shell-recorder.md)
 - [Set custom locales in GNOME3](custom-locale-gnome3.md)
 - [Regenerate locales in Debian](locales-in-debian.md)
 - [Git and GNOME Keyring](git-and-gnome-keyring.md)
+- [My Favorite GNOME Extensions](gnome-extensions.md)
+- [Reset GNOME Shell](reset-gnome.md)
+
+### KDE
+
 - [Show Alt+Tab popup as fast as possible in KDE](alt-tab-popup-delay-in-kde.md)
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
-- [My favorite GNOME Shell extensions](gnome-shell-extensions.md)
-- [Reset GNOME Shell](reset-gnome.md)
-- [Screen sharing in Wayland](screen-sharing-in-wayland.md)
 
 ## Web Browsers
 
