@@ -41,6 +41,7 @@
 
 - [Disable Firefox's Microphone/Webcam Indicator](disable-firefox-microphone-icon.md)
 - [Stop Google Chrome Asking to be the Default Browser](stop-google-chrome-asking-to-be-the-default-browser.md)
+- [My Favorite Google Chrome Extensions](google-chrome-extensions.md)
 
 ## Power Managment
 
