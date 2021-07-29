@@ -6,6 +6,7 @@
 - [Configuration for Logitech "Trackman" trackball](logitech-trackball.md)
 - [Programming Vortex Race 3 Keyboard](race3-keyboard-programming.md)
 - [Keychron K8 Function Keys](keychron-k8-function-keys.md)
+- [Higher quality Bluetooth microphone input with Pipewire](bluetooth-hsp-hfp-msbc-support-with-pipewire.md)
 
 ## Output Devices
 
