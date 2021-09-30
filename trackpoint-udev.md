@@ -1,6 +1,3 @@
----
-layout: post
----
 ## Configure IBM TrackPoint with udev
 
 ### Why
