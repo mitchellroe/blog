@@ -1,15 +1,5 @@
 # My Favorite GNOME Extensions
 
-## Featured Extension
-
-My favorite GNOME extension is, by far,
-[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) by
-[PapyElGringo](https://extensions.gnome.org/accounts/profile/PapyElGringo).
-This extension is (in my opinion) less of an extension and more of a desktop
-environment. Check out https://material-shell.com/ for more details.
-
-## Other Extensions
-
 - [App-Switcher Current Workspace First](https://extensions.gnome.org/extension/1329/app-switcher-current-workspace-first/) by [fawtytoo](https://extensions.gnome.org/accounts/profile/fawtytoo)
 - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/) by [3v1n0](https://extensions.gnome.org/accounts/profile/3v1n0)
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) by [michele\_g](https://extensions.gnome.org/accounts/profile/michele_g)
