@@ -19,6 +19,10 @@
 - [Connect to WPA2 Enterprise in Fedora 33](connect-to-wpa2-enterprise-in-fedora-33.md)
 - [Fingerprint reader](fingerprint-reader.md)
 
+## Startup
+
+- [Show grub menu in Fedora](show-grub-menu-in-fedora.md)
+
 ## Desktop
 
 ### Wayland
