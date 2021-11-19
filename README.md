@@ -58,6 +58,7 @@
 ## Editors
 
 - [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
+- [Insert special characters in vim](insert-special-characters-in-vim.md)
 
 ## Version Control
 
