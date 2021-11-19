@@ -19,4 +19,4 @@ command.
 
 ## Reference
 
-Originally found here: https://vimtricks.com/p/insert-special-characters/
+Originally found here: <https://vimtricks.com/p/insert-special-characters/>
