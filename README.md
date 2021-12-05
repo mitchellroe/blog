@@ -1,5 +1,8 @@
 # mitchellroe.dev
 
+Hi. 👋 My name's Mitchell. I'm a Systems Engineer and a Linux geek. This is my
+collection of things that I want to recall and share easily.
+
 ## Input Devices
 
 - [Setting udev rules for IBM TrackPoint sensitivity](trackpoint-udev.md)
