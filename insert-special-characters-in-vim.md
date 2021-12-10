@@ -4,6 +4,8 @@ To insert special characters in vim, while in insert mode, use `<Ctrl+k>`,
 followed by a two-character code. Some examples include:
 
 - `oo` • (bullet)
+- `PR` ▶ (black right-pointing triangle)
+- `Tr` ▷ (white right-pointing triangle)
 - `Db` ◆ (diamond bullet)
 - `'%` ϴ (Greek theta)
 - `Pd` £ (British pound symbols)
