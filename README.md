@@ -57,6 +57,7 @@ collection of things that I want to recall and share easily.
 - [Enable hibernate in Ubuntu](enable-hibernate-in-ubuntu.md)
 - [Enable hibernate in Fedora](enable-hibernate-in-fedora.md)
 - [Automatically hibernate after extended sleep](auto-hibernate.md)
+- [Battery charge threshold](battery-charge-threshold.md)
 
 ## Editors
 
