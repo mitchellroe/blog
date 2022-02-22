@@ -59,10 +59,14 @@ collection of things that I want to recall and share easily.
 - [Automatically hibernate after extended sleep](auto-hibernate.md)
 - [Battery charge threshold](battery-charge-threshold.md)
 
-## Editors
+## Text Editors
 
 - [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
 - [Insert special characters in vim](insert-special-characters-in-vim.md)
+
+## Image Editors
+
+- [Center a selection in GIMP](center-selection-in-gimp.md)
 
 ## Version Control
 
@@ -84,5 +88,3 @@ collection of things that I want to recall and share easily.
 ## Feedback
 
 [Let me know how I'm doing](https://docs.google.com/forms/d/e/1FAIpQLSfIwdEBO-BKyjLAY9oL9gRmYQ6x0idPBfJJFwRV_1k9grxDqw/viewform?usp=sf_link)
-
-See something that's wrong or missing? [Submit a PR.](https://github.com/mitchellroe/blog)
