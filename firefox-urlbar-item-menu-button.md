@@ -7,3 +7,5 @@ This can be disabled.
 - Go to `about:config`.
 - To make the Tab key skip the hamburger menu, change `browser.urlbar.resultMenu.keyboardAccessible` to `false`.
 - To disable the hamburger menu altogether, set `browser.urlbar.resultMenu` to `false`.
+
+Source: https://www.reddit.com/r/firefox/comments/13k61nh/comment/jkildti/?utm_source=share&utm_medium=web2x&context=3
