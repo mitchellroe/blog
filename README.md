@@ -92,7 +92,3 @@ collection of things that I want to recall and share easily.
 
 - [Python environment](python-environment.md)
 - [Looping in PowerShell](looping-in-powershell.md)
-
-## Feedback
-
-[Let me know how I'm doing](https://docs.google.com/forms/d/e/1FAIpQLSfIwdEBO-BKyjLAY9oL9gRmYQ6x0idPBfJJFwRV_1k9grxDqw/viewform?usp=sf_link)
