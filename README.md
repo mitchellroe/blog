@@ -48,11 +48,13 @@ collection of things that I want to recall and share easily.
 
 ## Web Browsers
 
-- [Disable Firefox's Microphone/Webcam Indicator](disable-firefox-microphone-icon.md)
-- [Firefox print margins](firefox-print-margins.md)
-- [Stop Google Chrome Asking to be the Default Browser](stop-google-chrome-asking-to-be-the-default-browser.md)
-- [My Favorite Google Chrome Extensions](google-chrome-extensions.md)
-- [Firefox urlbar item menu button](firefox-urlbar-item-menu-button.md)
+- Firefox
+  - [Disable Firefox's Microphone/Webcam Indicator](disable-firefox-microphone-icon.md)
+  - [Firefox print margins](firefox-print-margins.md)
+  - [Firefox urlbar item menu button](firefox-urlbar-item-menu-button.md)
+- Google Chrome
+  - [Stop Google Chrome Asking to be the Default Browser](stop-google-chrome-asking-to-be-the-default-browser.md)
+  - [My Favorite Google Chrome Extensions](google-chrome-extensions.md)
 
 ## Power Managment
 
