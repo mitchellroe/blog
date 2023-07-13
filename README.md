@@ -14,6 +14,7 @@ collection of things that I want to recall and share easily.
 ## Output Devices
 
 - [Pulse Audio not using default audio sink](pulseaudio-not-using-default-sink.md)
+- [Add an alias for a Bluetooth device](add-an-alias-for-a-bluetooth-device.md)
 
 ## Security
 
