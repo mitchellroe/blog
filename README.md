@@ -88,7 +88,7 @@ collection of things that I want to recall and share easily.
 - [Convert a PDF to grayscale](convert-a-pdf-to-grayscale.md)
 - [Combine PDFs](combine-pdfs.md)
 - [Gmail filters based on message age](gmail-filters-based-on-message-age.md)
-
+- [Jira notes](jira-notes.md)
 
 ## Programming
 
