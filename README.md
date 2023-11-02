@@ -42,6 +42,7 @@ collection of things that I want to recall and share easily.
 - [Git and GNOME Keyring](git-and-gnome-keyring.md)
 - [My Favorite GNOME Extensions](gnome-extensions.md)
 - [Reset GNOME Shell](reset-gnome.md)
+- [Configure displays in GDM](config-gdm-displays.md)
 
 ### KDE
 
