@@ -26,6 +26,7 @@ collection of things that I want to recall and share easily.
 ## Startup
 
 - [Show grub menu in Fedora](show-grub-menu-in-fedora.md)
+- [Add "drop-in" unit files in systemd](add-drop-in-systemd-unit-files.md)
 
 ## Desktop
 
