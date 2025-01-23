@@ -49,6 +49,12 @@ collection of things that I want to recall and share easily.
 - [Show Alt+Tab popup as fast as possible in KDE](alt-tab-popup-delay-in-kde.md)
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
 
+## Operating Systems
+
+### Arch Linux
+
+- [Use reflector for mirrorlist updates](arch-linux-update-mirrorlist.md)
+
 ## Web Browsers
 
 - Firefox
