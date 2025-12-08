@@ -3,6 +3,31 @@
 **NOTE**: This article does not apply to LVM, only to filesystems on
 traditional partitions.
 
+<!-- PlantUML
+
+left to right direction
+
+rectangle "Disk, /dev/xvda" as disk1 #bbbbbb {
+  rectangle "Partition, /dev/xvda3" as part1 #cccccc {
+    rectangle "Filesystem, ext4\n\n\n\n\n\n\n\n\n" as fs1 #dddddd {
+      database Data as data1 #eeeeee
+    }
+  }
+}
+
+rectangle "Disk, /dev/xvda" as disk2 #bbbbbb {
+  rectangle "Partition, /dev/xvda3" as part2 #cccccc {
+    rectangle "Filesystem, ext4" as fs2 #dddddd {
+      database Data as data2 #eeeeee
+    }
+  }
+}
+
+disk1 ----\> disk2
+
+note left of disk1 : Before
+note right of disk2 : After
+-->
 ![Before: A large disk, partition, and filesystem. After: A small disk, partition, and filesystem.](images/fs-01.png)
 
 Let’s say we made a virtual machine with a 64 GiB disk and put everything in
@@ -23,6 +48,27 @@ environment contains all the tools we need.
 
 ## Step 1: Shrink the filesystem
 
+<!-- PlantUML
+left to right direction
+
+rectangle "Disk, /dev/xvda" as disk1 #bbbbbb {
+  rectangle "Partition, /dev/xvda3" as part1 #cccccc {
+    rectangle "Filesystem, ext4\n\n\n\n\n\n\n\n\n" as fs1 #LightBlue {
+      database Data as data1 #eeeeee
+    }
+  }
+}
+
+rectangle "Disk, /dev/xvda" as disk2 #bbbbbb {
+  rectangle "Partition, /dev/xvda3\n\n\n\n\n\n\n\n\n" as part2 #cccccc {
+    rectangle "Filesystem, ext4" as fs2 #LightBlue {
+      database Data as data2 #eeeeee
+    }
+  }
+}
+
+fs1 ---\> fs2 : resize2fs
+-->
 ![We start by shrinking the filesystem only, in-place.](images/fs-02.png)
 
 First, check the filesystem to ensure it does not have any errors, and optimize
@@ -41,6 +87,27 @@ resize2fs /dev/xvda3 30G
 
 ## Step 2: Shrink the partition
 
+<!-- PlantUML
+left to right direction
+
+rectangle "Disk, /dev/xvda" as disk1 #bbbbbb {
+  rectangle "Partition, /dev/xvda3\n\n\n\n\n\n\n\n\n" as part1 #LightBlue {
+    rectangle "Filesystem, ext4" as fs1 #dddddd {
+      database Data as data1 #eeeeee
+    }
+  }
+}
+
+rectangle "Disk, /dev/xvda\n\n\n\n\n\n\n\n\n" as disk2 #bbbbbb {
+  rectangle "Partition, /dev/xvda3" as part2 #LightBlue {
+    rectangle "Filesystem, ext4" as fs2 #dddddd {
+      database Data as data2 #eeeeee
+    }
+  }
+}
+
+part1 ---\> part2 : fdisk
+-->
 ![Next we shrink the partition that contains the filesystem, in place.](images/fs-03.png)
 
 1. Use `fdisk /dev/xvda`.
@@ -59,6 +126,28 @@ resize2fs /dev/xvda3 30G
 
 ## Step 3: Clone the disk
 
+<!-- PlantUML
+left to right direction
+
+rectangle "Disk, /dev/xvda\n\n\n\n\n\n\n\n\n" as disk1 #LightBlue {
+  rectangle "Partition, /dev/xvda3" as part1 #cccccc {
+    rectangle "Filesystem, ext4" as fs1 #dddddd {
+      database Data as data1 #eeeeee
+    }
+  }
+}
+
+rectangle "Disk, /dev/xvdb" as disk2 #LightCyan {
+  rectangle "Partition, /dev/xvdb3" as part2 #cccccc {
+    rectangle "Filesystem, ext4" as fs2 #dddddd {
+      database Data as data2 #eeeeee
+    }
+  }
+}
+
+note right of disk2 : New VDI / disk
+part1 ---\> part2 : Clonezilla
+-->
 ![Since we can't shrink the virtual disk, we need to clone the partitions to a new, smaller disk.](images/fs-04.png)
 
 1. Attach a new, empty 32 GiB disk to the machine.
