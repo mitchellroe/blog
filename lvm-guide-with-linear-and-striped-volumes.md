@@ -108,7 +108,7 @@ multiple `tapdisk` processes and use them in parallel.
 
     ```txt
     2  disks -- ok
-    3  disks -- ok  <-- prime, but it's small enough to work with (e.g. 3, 6, 9, 12)
+    3  disks -- ok
     4  disks -- ok
     5  disks -- BAD
     6  disks -- ok
