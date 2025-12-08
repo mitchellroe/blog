@@ -28,7 +28,7 @@ disk1 ----\> disk2
 note left of disk1 : Before
 note right of disk2 : After
 -->
-![Before: A large disk, partition, and filesystem. After: A small disk, partition, and filesystem.](images/fs-01.png)
+![Before: A large disk, partition, and filesystem. After: A small disk, partition, and filesystem.](images/fs-01.png "General overview")
 
 Let’s say we made a virtual machine with a 64 GiB disk and put everything in
 it. Simple, but not very flexible. What if we need more space? What if we later
@@ -69,7 +69,7 @@ rectangle "Disk, /dev/xvda" as disk2 #bbbbbb {
 
 fs1 ---\> fs2 : resize2fs
 -->
-![We start by shrinking the filesystem only, in-place.](images/fs-02.png)
+![We start by shrinking the filesystem only, in-place.](images/fs-02.png "Shrink the filesystem in place")
 
 First, check the filesystem to ensure it does not have any errors, and optimize
 as recommended using `e2fsck`. Then, resize the underlying filesystem to 30
@@ -108,7 +108,7 @@ rectangle "Disk, /dev/xvda\n\n\n\n\n\n\n\n\n" as disk2 #bbbbbb {
 
 part1 ---\> part2 : fdisk
 -->
-![Next we shrink the partition that contains the filesystem, in place.](images/fs-03.png)
+![Next we shrink the partition that contains the filesystem, in place.](images/fs-03.png "Shrink the partition containing the filesystem")
 
 1. Use `fdisk /dev/xvda`.
 2. Print out the current partition layout using `p.` Take note of the start
@@ -148,7 +148,7 @@ rectangle "Disk, /dev/xvdb" as disk2 #LightCyan {
 note right of disk2 : New VDI / disk
 part1 ---\> part2 : Clonezilla
 -->
-![Since we can't shrink the virtual disk, we need to clone the partitions to a new, smaller disk.](images/fs-04.png)
+![Since we can't shrink the virtual disk, we need to clone the partitions to a new, smaller disk.](images/fs-04.png "Clone the partition to a new disk")
 
 1. Attach a new, empty 32 GiB disk to the machine.
 2. Start Clonezilla.
