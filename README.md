@@ -58,6 +58,7 @@ collection of things that I want to recall and share easily.
 ### Linux (general)
 
 - [LVM guide with linear and striped volumes](lvm-guide-with-linear-and-striped-volumes.md)
+- [Shrinking a filesystem/partition/disk](filesystem-shrinking.md)
 
 ### Arch Linux
 
