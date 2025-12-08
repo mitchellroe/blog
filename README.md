@@ -49,6 +49,10 @@ collection of things that I want to recall and share easily.
 - [Show Alt+Tab popup as fast as possible in KDE](alt-tab-popup-delay-in-kde.md)
 - [Using the Meta Key to Open Application Launcher in KDE (including Latte Dock)](meta-key-for-kde-application-launcher.md)
 
+### Kodi
+
+- [How to set up the YouTube add-on in Kodi](kodi-youtube-addon.md)
+
 ## Operating Systems
 
 ### Arch Linux
@@ -77,6 +81,7 @@ collection of things that I want to recall and share easily.
 
 - [Add keys to Spacemacs' layers](spacemacs-projectile-search.md)
 - [Insert special characters in vim](insert-special-characters-in-vim.md)
+- [Better text wrapping in neovim](better-text-wrapping-neovim.md)
 
 ## Image Editors
 
