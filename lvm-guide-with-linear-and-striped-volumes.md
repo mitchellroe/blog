@@ -9,6 +9,8 @@ essentially two schemes one can use:
 - **Striped volume**, which allows for better parallel performance. This
   functions somewhat like a software-defined RAID 0.
 
+[[_TOC_]]
+
 ## What is LVM?
 
 LVM stands for Logical Volume Management, and is a system built into most
