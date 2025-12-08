@@ -5,13 +5,13 @@ traditional partitions.
 
 ![Before: A large disk, partition, and filesystem. After: A small disk, partition, and filesystem.](images/fs-01.png)
 
-Let’s say we made a virtual machine with a 300 GB disk and put everything in
+Let’s say we made a virtual machine with a 64 GiB disk and put everything in
 it. Simple, but not very flexible. What if we need more space? What if we later
-decide to use LVM? If we move all the space-consuming stuff out of that 300 GB
+decide to use LVM? If we move all the space-consuming stuff out of that 64 GiB
 disk and leave only the operating system, then that’s a whole lot of wasted
 space.
 
-We’ll take a 300 GiB disk and “shrink” it down to 32 GiB, one piece at a time.
+We’ll take a 64 GiB disk and “shrink” it down to 32 GiB, one piece at a time.
 
 For most of these operations, you will need to be booted into some sort of live
 disk like Clonezilla.
@@ -61,7 +61,7 @@ resize2fs /dev/xvda3 30G
 
 ![Since we can't shrink the virtual disk, we need to clone the partitions to a new, smaller disk.](images/fs-04.png)
 
-1. Attach a new, empty 32 GB disk to the machine.
+1. Attach a new, empty 32 GiB disk to the machine.
 2. Start Clonezilla.
 3. Do a device-to-device clone in Expert mode (`disk_to_local_disk`).
 4. In the list of additional options, leave all the defaults checked, and
