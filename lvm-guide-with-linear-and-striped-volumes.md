@@ -3,11 +3,11 @@
 LVM offers several advantages over a traditional, single volume. There are
 essentially two schemes one can use:
 
-- Linear volume, which allows for dynamically adding and removing disks from
-  the pool. In practice, it will fill one whole disk before moving on to the
-  next disk.
-- Striped volume, which allows for better parallel performance. This functions
-  somewhat like a software-defined RAID 0.
+- **Linear volume**, which allows for dynamically adding and removing disks
+  from the pool. In practice, it will fill one whole disk before moving on to
+  the next disk.
+- **Striped volume**, which allows for better parallel performance. This
+  functions somewhat like a software-defined RAID 0.
 
 ## What is LVM?
 
@@ -226,7 +226,8 @@ add it to `/etc/fstab` as you would any other filesystem.
 
 ### Add an additional disk to a linear LV
 
-**NOTE**: This only applies to linear LV’s.
+> [!IMPORTANT]
+> This only applies to linear LV’s.
 
 - Create another 64 GiB (or whatever size) virtual disk and attach it to the
   VM.
@@ -248,7 +249,8 @@ add it to `/etc/fstab` as you would any other filesystem.
 
 ### Remove a physical volume (PV) from a volume group (VG)
 
-**NOTE**: This only applies to linear LV’s.
+> [!IMPORTANT]
+> This only applies to linear LV’s.
 
 Let’s say you added too many disks to a system, and you need to reclaim some of
 that space. We’ll remove a PV at `/dev/xvdo` from the volume group `vg0`.
