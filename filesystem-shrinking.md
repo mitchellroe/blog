@@ -3,7 +3,7 @@
 **NOTE**: This article does not apply to LVM, only to filesystems on
 traditional partitions.
 
-![images/fs-01.png]
+![Before: A large disk, partition, and filesystem. After: A small disk, partition, and filesystem.](images/fs-01.png)
 
 Let’s say we made a virtual machine with a 300 GB disk and put everything in
 it. Simple, but not very flexible. What if we need more space? What if we later
@@ -23,7 +23,7 @@ environment contains all the tools we need.
 
 ## Step 1: Shrink the filesystem
 
-![images/fs-02.png]
+![We start by shrinking the filesystem only, in-place.](images/fs-02.png)
 
 First, check the filesystem to ensure it does not have any errors, and optimize
 as recommended using `e2fsck`. Then, resize the underlying filesystem to 30
@@ -41,7 +41,7 @@ resize2fs /dev/xvda3 30G
 
 ## Step 2: Shrink the partition
 
-![images/fs-03.png]
+![Next we shrink the partition that contains the filesystem, in place.](images/fs-03.png)
 
 1. Use `fdisk /dev/xvda`.
 2. Print out the current partition layout using `p.` Take note of the start
@@ -59,7 +59,7 @@ resize2fs /dev/xvda3 30G
 
 ## Step 3: Clone the disk
 
-![images/fs-04.png]
+![Since we can't shrink the virtual disk, we need to clone the partitions to a new, smaller disk.](images/fs-04.png)
 
 1. Attach a new, empty 32 GB disk to the machine.
 2. Start Clonezilla.
