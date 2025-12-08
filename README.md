@@ -55,6 +55,10 @@ collection of things that I want to recall and share easily.
 
 ## Operating Systems
 
+### Linux (general)
+
+- [LVM guide with linear and striped volumes](lvm-guide-with-linear-and-striped-volumes.md)
+
 ### Arch Linux
 
 - [Use reflector for mirrorlist updates](arch-linux-update-mirrorlist.md)
