@@ -102,9 +102,9 @@ multiple `tapdisk` processes and use them in parallel.
 
   - Try to not go over 75% utilization.
 - Split your total space needed into 64 GiB VDIs.
-  - If creating a striped volume, look for a multiple of 2, 3, or 4. This will
-    be your number of stripes. Performance benefits diminish with more than 4
-    stripes for a volume.
+  - If creating a **striped** volume, look for a multiple of 2, 3, or 4. This
+    will be your number of stripes. Performance benefits diminish with more
+    than 4 stripes for a volume.
 
     ```txt
     2  disks -- ok
@@ -128,13 +128,14 @@ multiple `tapdisk` processes and use them in parallel.
 - Create a volume group (VG). The VG is named vg0 in the following examples.
   Replace {b,c,e,f,g,h} with whatever drive letters you want to use in the
   following commands.
-  - For linear volumes:
+  - For **linear** volumes:
 
     ```sh
     vgcreate vg0 /dev/xvd{b,c,e,f,g,h}
     ```
 
-  - For striped volumes, specify a physical extent size of 64k with `-s 64k`:
+  - For **striped** volumes, specify a physical extent size of 64k with
+    `-s 64k`:
 
     ```sh
     vgcreate -s 64k vg0 /dev/xvd{b,c,e,f,g,h}
@@ -170,13 +171,13 @@ multiple `tapdisk` processes and use them in parallel.
 
 Create a logical volume (LV) within the volume group (VG).
 
-- For a linear volume:
+- For a **linear** volume:
 
   ```sh
   lvcreate --extents +100%FREE --name srv vg0
   ```
 
-- For a striped volume:
+- For a **striped** volume:
 
   ```sh
   lvcreate --stripes $stripes --extents +100%FREE --stripesize 64 --name srv vg0
@@ -191,13 +192,13 @@ Create a logical volume (LV) within the volume group (VG).
 
 Create an ext4 (or whatever) filesystem on the logical volume (LV).
 
-- For a linear volume
+- For a **linear** volume
 
   ```sh
   mkfs.ext4 /dev/vg0/srv
   ```
 
-- For a striped volume
+- For a **striped** volume
   - First, calculate your stripe width. `stripe_width = 16 * $num_of_stripes`
   - Then, create the filesystem.
 
