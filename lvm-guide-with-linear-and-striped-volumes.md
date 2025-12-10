@@ -227,8 +227,7 @@ add it to `/etc/fstab` as you would any other filesystem.
 
 ### Add an additional disk to a linear LV
 
-> [!IMPORTANT]
-> This only applies to linear LV’s.
+**NOTE:** This only applies to linear LV’s.
 
 - Create another 64 GiB (or whatever size) virtual disk and attach it to the
   VM.
@@ -250,8 +249,7 @@ add it to `/etc/fstab` as you would any other filesystem.
 
 ### Remove a physical volume (PV) from a volume group (VG)
 
-> [!IMPORTANT]
-> This only applies to linear LV’s.
+**NOTE:** This only applies to linear LV’s.
 
 Let’s say you added too many disks to a system, and you need to reclaim some of
 that space. We’ll remove a PV at `/dev/xvdo` from the volume group `vg0`.
