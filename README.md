@@ -40,7 +40,6 @@ collection of things that I want to recall and share easily.
 - [Set custom locales in GNOME3](custom-locale-gnome3.md)
 - [Regenerate locales in Debian](locales-in-debian.md)
 - [Git and GNOME Keyring](git-and-gnome-keyring.md)
-- [My Favorite GNOME Extensions](gnome-extensions.md)
 - [Reset GNOME Shell](reset-gnome.md)
 - [Configure displays in GDM](config-gdm-displays.md)
 - [Configure the Compose key](compose-key.md)
