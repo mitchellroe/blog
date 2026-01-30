@@ -43,6 +43,7 @@ collection of things that I want to recall and share easily.
 - [My Favorite GNOME Extensions](gnome-extensions.md)
 - [Reset GNOME Shell](reset-gnome.md)
 - [Configure displays in GDM](config-gdm-displays.md)
+- [Configure the Compose key](compose-key.md)
 
 ### KDE
 
