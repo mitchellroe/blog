@@ -112,3 +112,4 @@ collection of things that I want to recall and share easily.
 
 - [Python environment](python-environment.md)
 - [Looping in PowerShell](looping-in-powershell.md)
+- [bash expansion](bash-expansion.md)
